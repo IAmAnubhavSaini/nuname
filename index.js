@@ -2,7 +2,7 @@
 
 const os = require('os');
 
-const uname = function(param) {
+const nuname = function(param) {
     switch(param) {
         case 'r':
             return os.release();
@@ -11,4 +11,4 @@ const uname = function(param) {
     }
 };
 
-module.exports = uname;
+module.exports = nuname;
