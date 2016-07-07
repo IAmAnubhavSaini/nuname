@@ -1,0 +1,2 @@
+# nuname
+node uname
