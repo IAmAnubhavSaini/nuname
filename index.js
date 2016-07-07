@@ -8,6 +8,8 @@ const nuname = function(param) {
             return os.release();
         case 's':
             return os.type();
+        case 'n':
+            return os.hostname();
     }
 };
 
